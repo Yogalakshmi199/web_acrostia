@@ -1,42 +1,71 @@
+.grid {
 
-   
+    padding: 6em 0 0;
 
-.grid{
-    
-        padding: 6em 0 0;
-    
+}
+
+.container {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.service{
+    background-image: url("assets/bg.jpeg");
 }
 
 
-.services{
-    color: white;
+.services {
+    color: rgb(224, 209, 209);
     font-weight: 300;
     padding: 10em 0 7em;
-    box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 100%;
-    background-image:url("assets/bg.jpeg");
+    
     font-size: 14px;
 }
 
-.headservice{
-    font-size: 1.5em;
-    
+#services {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
-.span{
+
+
+.headservice {
+    font-size: 1.5em;
+
+
+}
+
+.span {
     font-weight: bolder;
     color: #ffcccf;
 }
-.serviceheading{
+
+.serviceheading {
+
     font-size: 4em;
     font-weight: 300;
 }
 
-.para{
-    color: #ffcccf
-    ;
+.para {
+    color: #ffcccf;
+    font-size: 1.1em;
+    font-weight: 300;
+    font-size: 15.4px;
+    line-height: 1.5em;
 }
 
-.service-grid{
-    background-color: #c45158;
+
+
+
+.card {
+    
+    background-color: #c45158 !important;
 }
+
+.row {
+    padding: 6em 0 0;
+}
+
