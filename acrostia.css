@@ -88,7 +88,7 @@ padding: 6em 0 0;
     font-size: 3em;
 }
 
-a.meet{
+.meet{
     padding-top: 0.5em;
     padding-right: 1.6em;
     padding-bottom: 0.5em;
@@ -99,6 +99,8 @@ a.meet{
     font-size: 2em;
     text-decoration: none;
     border-radius: 6px;
+    cursor: pointer;
+    cursor: hand;
 
 }
 
@@ -122,6 +124,9 @@ a.meet{
 
 .service3 {
     background-image: url("assets/bg3.png");
+}
+.para3{
+    color: white;
 }
 
     
