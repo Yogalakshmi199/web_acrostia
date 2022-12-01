@@ -105,8 +105,13 @@ padding: 6em 0 0;
 
 
 .teamgrid{
+    margin-right: 2.6%;
+    font-size: 14px !important;
+    float: left;
+    padding-bottom: 5px !important;
     
     background: rgba(93, 77, 91, 0.62);
+    
     
 }
 
@@ -132,7 +137,14 @@ ul.social li {
 }
 
 .social{
-    background: url("assets");
+    background: url("assets/img-sprite\ copy.png"), no-repeat;
+    padding-top: 2em;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
 }
+
+
     
+
 
