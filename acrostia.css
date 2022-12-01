@@ -54,7 +54,6 @@ padding: 6em 0 0;
 
 .para {
     color: #ffcccf;
-
     font-weight: 300;
     font-size: 15.4px;
 }
@@ -118,8 +117,9 @@ padding: 6em 0 0;
     color: #c7b6c5;
 }
 
-.ul li{
-    display: inline;
+ul.social li {
+    display: inline-block;
+    padding: 0 6px;
 }
 
 .service3 {
@@ -127,7 +127,12 @@ padding: 6em 0 0;
 }
 .para3{
     color: white;
+    font-weight: 300;
+    font-size: 15.4px;
 }
 
+.social{
+    background: url("assets");
+}
     
 
