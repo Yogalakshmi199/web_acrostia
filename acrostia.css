@@ -105,15 +105,23 @@ padding: 6em 0 0;
 
 
 .teamgrid{
-    margin-right: 2.6%;
+    
+    font-size: 14px !important;
+    float: left;
+    
+     background: rgba(93, 77, 91, 0.62);
+     padding-top: 3em!important;
+    padding-right: 2em!important;
+    padding-bottom: 3em!important;
+    padding-left: 2em!important;
+    }
+
+    .topgrid{
+       
     font-size: 14px !important;
     float: left;
     padding-bottom: 5px !important;
-    
-    background: rgba(93, 77, 91, 0.62);
-    
-    
-}
+    }
 
 .teamgrid small{
     color:#a1ca6c;
@@ -122,10 +130,7 @@ padding: 6em 0 0;
     color: #c7b6c5;
 }
 
-ul.social li {
-    display: inline-block;
-    padding: 0 6px;
-}
+
 
 .service3 {
     background-image: url("assets/bg3.png");
@@ -140,7 +145,24 @@ ul.social li {
     width: 16rem;
 }
 
+.bi{
+    padding-top: 0px;
+    padding-right: 6px;
+    padding-bottom: 0px;
+    padding-left: 6px;
+    width: 35px;
+    height: 35px;
+    display: block;
+    display: inline-block;
+}
 
+.container3{
+    width: 970px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
     
 
