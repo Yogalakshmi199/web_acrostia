@@ -137,11 +137,20 @@ ul.social li {
 }
 
 .social{
-    background: url("assets/img-sprite\ copy.png"), no-repeat;
+    background: url("assets/img.png"),0px-35px, no-repeat;
     padding-top: 2em;
     padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
+}
+
+.topgrid{
+    
+        float: left;
+        margin-right: 2.6%;
+        width: 23%;
+        padding: 0;
+    
 }
 
 
