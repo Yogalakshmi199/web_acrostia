@@ -74,6 +74,8 @@ padding: 6em 0 0;
     margin: 0%;
 }
 
+
+
 .teamhead{
     color: white;
     font-size: 1.5em;
@@ -125,9 +127,12 @@ padding: 6em 0 0;
 
 .teamgrid small{
     color:#a1ca6c;
+    font-size: 1em;
 }
 .teamgrid h6{
     color: #c7b6c5;
+    font-size: 1.7em;
+    font-weight:800 ;
 }
 
 
@@ -141,29 +146,40 @@ padding: 6em 0 0;
     font-size: 15.4px;
 }
 
-.social{
-    width: 16rem;
-}
 
-.bi{
+
+i.bi{
     padding-top: 0px;
     padding-right: 6px;
     padding-bottom: 0px;
     padding-left: 6px;
     width: 35px;
     height: 35px;
-    display: block;
-    display: inline-block;
+    border-radius: 30;
+   
+  border-radius: 50%;
+  box-shadow: #c7b6c5;
+  
+    
 }
 
-.container3{
-    width: 970px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+.icons{
+    padding-top: 2em;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    display: inline-block;
+    color: white
+
+
 }
+
+
+
 
     
+
+
+
 
 
