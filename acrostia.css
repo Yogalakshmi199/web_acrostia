@@ -58,7 +58,7 @@
     font-size: 15.4px;
 }
 
-.card {
+.servicecard {
 
     background-color: #c45158 !important;
     margin-right: 2.6%;
@@ -85,11 +85,14 @@
 }
 
 .teamhead h3 {
-    font-weight: 300;
+    font-weight: 100;
     font-size: 3em;
 }
 
 .meet {
+    text-align: center;
+    margin: auto;
+
     padding-top: 0.5em;
     padding-right: 1.6em;
     padding-bottom: 0.5em;
@@ -102,27 +105,19 @@
     border-radius: 6px;
     cursor: pointer;
     cursor: hand;
+    width: 320px;
 
 }
 
 
 .teamgrid {
-
     font-size: 14px !important;
     float: left;
-
-    background: rgba(93, 77, 91, 0.62);
+    background: rgba(93, 77, 91, 0.62) !important;
     padding-top: 3em !important;
     padding-right: 2em !important;
     padding-bottom: 3em !important;
     padding-left: 2em !important;
-}
-
-.topgrid {
-
-    font-size: 14px !important;
-    float: left;
-    padding-bottom: 5px !important;
 }
 
 .teamgrid small {
@@ -136,33 +131,26 @@
     font-weight: 800;
 }
 
-
-
 .service3 {
     background-image: url("assets/bg3.png");
 }
 
 .para3 {
-    color: white;
+    color: #e5d1e3;
     font-weight: 300;
     font-size: 15.4px;
 }
 
-
-
-i.bi {
+.bi {
     padding-top: 0px;
     padding-right: 6px;
     padding-bottom: 0px;
-    padding-left: 6px;
-    width: 35px;
-    height: 35px;
+    padding-left: 0px;
+    width: 28px !important;
+    height: 35px !important;
     border-radius: 30;
-
-    border-radius: 50%;
+    display: inline;
     box-shadow: #c7b6c5;
-
-
 }
 
 .icons {
@@ -170,6 +158,5 @@ i.bi {
     padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
-    display: inline-block;
-    color: white
+    color: white;
 }
