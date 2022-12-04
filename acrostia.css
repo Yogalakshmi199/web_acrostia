@@ -161,6 +161,32 @@
     color: white;
 }
 
-.naturegrid{
-    background-image: url("assets")
+.service4{
+    background-image: url("assets/bg4.png")
+}
+
+.para4{
+    color: white;
+    font-weight: 300;
+    font-size: 15.4px;
+}
+
+.portbox{
+    border-top: 1px solid #a1ca6c;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(161, 202, 108);
+    border-bottom: 1px solid #a1ca6c;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(161, 202, 108);
+    padding: 1.5em 0;
+    padding-top: 1.5em;
+    padding-right: 0px;
+    padding-bottom: 1.5em;
+    padding-left: 0px;
+}
+
+.portfo{
+    color: white;
 }
