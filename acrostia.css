@@ -160,3 +160,7 @@
     padding-left: 0px;
     color: white;
 }
+
+.naturegrid{
+    background-image: url("assets")
+}
