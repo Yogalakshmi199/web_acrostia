@@ -165,10 +165,16 @@
     background-image: url("assets/bg4.png")
 }
 
+#services{
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    text-align: center;
+}
+
 .para4{
     color: white;
     font-weight: 300;
-    font-size: 15.4px;
+    font-size: 15.9px!important;
 }
 
 .portbox{
@@ -180,7 +186,7 @@
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(161, 202, 108);
-    padding: 1.5em 0;
+    
     padding-top: 1.5em;
     padding-right: 0px;
     padding-bottom: 1.5em;
@@ -189,4 +195,13 @@
 
 .portfo{
     color: white;
+}
+
+.imgTabs{
+    
+   padding-right: 5px;
+    float: left;
+    
+    
+
 }
