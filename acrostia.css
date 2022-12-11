@@ -179,19 +179,16 @@
 
 .portbox{
     border-top: 1px solid #a1ca6c;
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-top-color: rgb(161, 202, 108);
-    border-bottom: 1px solid #a1ca6c;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: rgb(161, 202, 108);
     
-    padding-top: 1.5em;
-    padding-right: 0px;
-    padding-bottom: 1.5em;
-    padding-left: 0px;
+   
+    border-bottom: 1px solid #a1ca6c;
+  
+
+   
 }
+
+
+
 
 .portfo{
     color: white;
@@ -199,9 +196,20 @@
 
 .imgTabs{
     
-   padding-right: 5px;
-    float: left;
+   width: 261px!important;
+
     
     
 
+}
+
+.imgCard{
+    border: none !important;
+    background-color: transparent !important;
+}
+
+
+.resp-tab-active, .resp-tab-item:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(223 166 41);
 }
