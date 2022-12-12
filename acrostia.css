@@ -218,29 +218,3 @@
    
 }
 
-.nav-tabs-list{
-    float: right;
-    text-align: center;
-    list-style: none;
-    padding: 0;
-   
-
-   
-}
-
-.nav-item{
-    cursor: pointer;
-    display: inline;
-
-    padding-top: 3px;
-    padding-right: 9px;
-    padding-bottom: 3px;
-    padding-left: 9px;
-    font-size: 16px;
-    margin-top: 0px;
-    margin-right: 0.5em;
-    margin-bottom: 0px;
-    margin-left: 0.5em;
-   
-
-}
