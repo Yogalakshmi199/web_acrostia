@@ -179,12 +179,11 @@
 
 .portbox{
     border-top: 1px solid #a1ca6c;
-    
-   
     border-bottom: 1px solid #a1ca6c;
-  
-
-   
+    padding-top: 1.5em;
+    padding-right: 0px;
+    padding-bottom: 1.5em;
+    padding-left: 0px;
 }
 
 
@@ -203,13 +202,45 @@
 
 }
 
-.imgCard{
+.imgCards{
     border: none !important;
     background-color: transparent !important;
 }
 
 
-.resp-tab-active, .resp-tab-item:hover {
+.nav-tab-active {
     color: rgb(255, 255, 255);
     background: rgb(223 166 41);
+    display: inline;
+    float: right;
+    text-align: center;
+    
+   
+}
+
+.nav-tabs-list{
+    float: right;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+   
+
+   
+}
+
+.nav-item{
+    cursor: pointer;
+    display: inline;
+
+    padding-top: 3px;
+    padding-right: 9px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-right: 0.5em;
+    margin-bottom: 0px;
+    margin-left: 0.5em;
+   
+
 }
