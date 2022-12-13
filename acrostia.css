@@ -89,6 +89,8 @@
     font-size: 3em;
 }
 
+
+
 .meet {
     text-align: center;
     margin: auto;
@@ -162,13 +164,19 @@
 }
 
 .service4{
-    background-image: url("assets/bg4.png")
+    background-image: url("assets/bg4.png");
+    padding-top: 6em;
+    padding-right: 0px;
+    padding-bottom: 6em;
+    padding-left: 0px;
+   
 }
 
 #services{
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     text-align: center;
+   
 }
 
 .para4{
@@ -186,20 +194,15 @@
     padding-left: 0px;
 }
 
-
-
-
 .portfo{
     color: white;
+    float: left;
+    font-size: 1.3em;
+    font-weight: 600;
 }
 
 .imgTabs{
-    
-   width: 261px!important;
-
-    
-    
-
+     width: 261px!important;  
 }
 
 .imgCards{
@@ -208,13 +211,17 @@
 }
 
 
-.nav-tab-active {
+.nav-item {
     color: rgb(255, 255, 255);
     background: rgb(223 166 41);
+   
+   
+}
+
+.nav-pills{
     display: inline;
     float: right;
     text-align: center;
     
-   
 }
 
