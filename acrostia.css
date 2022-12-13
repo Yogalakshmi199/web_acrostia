@@ -211,12 +211,7 @@
 }
 
 
-.nav-item {
-    color: rgb(255, 255, 255);
-    background: rgb(223 166 41);
-   
-   
-}
+
 
 .nav-pills{
     display: inline;
@@ -225,3 +220,15 @@
     
 }
 
+
+.nav-pills .nav-item .nav-link {
+   
+    color: #FFF;
+  }
+  
+  .nav-pills .nav-item .nav-link.active {
+   background-color:  orange !important;
+   
+  }
+  
+ 
