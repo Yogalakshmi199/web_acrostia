@@ -226,6 +226,37 @@
   
 
    .service5{
-    background-image: url("ass");
+    background-image: url("assets/bg5.png");
+    padding-top: 6em;
+    padding-right: 0px;
+    padding-bottom: 6em;
+    padding-left: 0px;
+   }
+
+   .contacthead{
+    color: white;
+    font-size: 1.5em;
+    padding: 0.5em 0;
+}
+
+.contacthead h3 {
+    font-weight: 100;
+    font-size: 3em;
+   }
+
+   .map iframe{
+    height:261px;
+    padding-top: 1em;
+    padding-right: 0px;
+    padding-bottom: 1em;
+    padding-left: 0px;
+    width: 100%;
+   }
+
+   .ul{
+    list-style-type: none;
    }
  
+   .contact-details{
+    color: white;
+   }
