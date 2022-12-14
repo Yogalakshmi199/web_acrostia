@@ -297,20 +297,32 @@
    }
 
    .Send{
-    text-align: center;
+    text-align: center !important;
+
+   
+    font-weight: 800;
+    width: 43%;
+    height: 22%;
     }
 
-    .Send input{
-        font-weight: 800;
-        width: 43%;
-        height: 22%;
-
-    }
-
-    .textingarea text{
-        background: #68a097 !important;
-    }
+    
+    
 
     input, textarea {
-        background: #68a097 !important;   
+        background-color:  #68a097 !important;
+        color:#CFE7E3 !important;
+       
+        border: none !important;  
+    }
+
+    
+    input:hover, textarea:hover {
+        background-color: #ffffff !important;
+        border: none !important;
+    }
+    
+    .map{
+        padding-top: 6em;
+        width: 250px;
+        
     }
