@@ -244,14 +244,7 @@
     font-size: 3em;
    }
 
-   .map iframe{
-    height:261px;
-    padding-top: 1em;
-    padding-right: 0px;
-    padding-bottom: 1em;
-    padding-left: 0px;
-    width: 100%;
-   }
+   
 
    .ul{
     list-style-type: none;
@@ -262,8 +255,62 @@
    }
 
    .address{
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 300;
    }
 
+   .road{
+    padding-top: 0.2em;
+    padding-right: 0px;
+    padding-bottom: 0.2em;
+    padding-left: 0px;
+    font-weight: 300;
+    font-size: 1.2em;
+   }
+
+   ul{
+    margin: 0 !important;
+    padding: 0 !important;
+   }
+
+
+   ul.mobile li{
+    
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 300;
+    
+   }
    
+   ul.mobile li span{
+    color: #CFE7E3;
+   }
+
+   .Askaques{
+    font-size: 2.5em;
+    font-weight: 300;
+   
+   }
+   
+   .input[type="text"]{
+    background: #68a097 !important;
+   }
+
+   .Send{
+    text-align: center;
+    }
+
+    .Send input{
+        font-weight: 800;
+        width: 43%;
+        height: 22%;
+
+    }
+
+    .textingarea text{
+        background: #68a097 !important;
+    }
+
+    input, textarea {
+        background: #68a097 !important;   
+    }
