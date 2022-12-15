@@ -198,6 +198,10 @@
     float: left;
     font-size: 1.3em;
     font-weight: 600;
+    margin-top: 0.5em;
+    margin-right: 1em;
+    margin-bottom: 0px;
+    margin-left: 1em;
 }
 
 .imgTabs{
@@ -291,27 +295,34 @@
     font-weight: 300;
    
    }
-   
-   .input[type="text"]{
-    background: #68a097 !important;
-   }
 
    .Send{
-    text-align: center !important;
-
-   
-    font-weight: 800;
-    width: 43%;
-    height: 22%;
-    }
-
     
+    font-size: 1.8em;
+    padding-top: 0.3em;
+    padding-right: 6em;
+    padding-bottom: 0.3em;
+    padding-left: 6em;
+    font-weight: 800 !important;
     
+   }
+  
+   .btn-danger{
+    font-size: 1em !important;
+    font-weight: 800 !important;
+    color: #fff;
+    background-color: #df5c64;
+}
 
+    .btn-danger:hover{
+    color: #fff;
+    background-color: #00b3db;
+}
+
+ 
     input, textarea {
         background-color:  #68a097 !important;
         color:#CFE7E3 !important;
-       
         border: none !important;  
     }
 
@@ -323,6 +334,26 @@
     
     .map{
         padding-top: 6em;
-        width: 250px;
-        
+        width: 100%;
     }
+
+    .footer{
+        background: #68a097;
+        text-align: center;
+        padding-top: 3em;
+        padding-right: 0px;
+        padding-bottom: 3em;
+        padding-left: 0px;
+    }
+
+    .footer p {
+        color: #fff;
+        font-size: 1.3em;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-top: 1em;
+        padding-right: 0px;
+        padding-bottom: 1em;
+        padding-left: 0px;
+    }
+    
