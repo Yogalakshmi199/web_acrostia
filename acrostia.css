@@ -1,3 +1,14 @@
+.img-slider{
+    display: block;
+    height: auto;
+    float: left;
+    align-self: center;
+    border: 0;
+}
+
+
+
+
 .grid {
     padding: 6em 0 0;
 }
