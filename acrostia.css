@@ -64,7 +64,11 @@
     margin-right: 2.6%;
     font-size: 14px !important;
     float: left;
-    padding-bottom: 5px !important;
+    padding-top: 3em;
+    padding-right: 2em;
+    padding-bottom: 3em;
+    padding-left: 2em;
+    border-bottom: 3em !important;
 }
 
 .title {
@@ -96,9 +100,9 @@
     margin: auto;
 
     padding-top: 0.5em;
-    padding-right: 1.6em;
+    padding-right: 0.6em;
     padding-bottom: 0.5em;
-    padding-left: 1.6em;
+    padding-left: 0.6em;
     color: white;
     background-color: #a1ca6c;
     font-weight: 800;
@@ -107,7 +111,7 @@
     border-radius: 6px;
     cursor: pointer;
     cursor: hand;
-    width: 320px;
+    width: 300px;
 
 }
 
@@ -323,18 +327,22 @@
     input, textarea {
         background-color:  #68a097 !important;
         color:#CFE7E3 !important;
-        border: none !important;  
+        border: none !important; 
+        padding-top: 0.5em;
+    
     }
 
     
     input:hover, textarea:hover {
         background-color: #ffffff !important;
+        color:#CFE7E3 !important;
         border: none !important;
     }
     
     .map{
         padding-top: 6em;
         width: 100%;
+        padding-left: 0em;
     }
 
     .footer{
