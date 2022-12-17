@@ -1,9 +1,15 @@
-.img-slider{
-    display: block;
-    height: auto;
-    float: left;
-    align-self: center;
-    border: 0;
+.navbar{
+    background-color: transparent;
+}
+
+
+
+
+.myImage{
+    position: absolute;
+    max-width: 100%;
+    bottom: 641%;
+    right: 5%;
 }
 
 
