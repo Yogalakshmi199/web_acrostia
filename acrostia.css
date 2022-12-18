@@ -1,7 +1,14 @@
-.navbar{
-    background-color: transparent;
+.navbar-brand{
+    align-items: right !important;
 }
 
+.navbar-nav li a{
+    color: white !important;
+    padding-top: 3em !important;
+    padding-right: 1.8em !important;
+    padding-bottom: 0.5em !important;
+    padding-left: 1.8em !important;
+}
 
 
 
@@ -15,7 +22,7 @@
 
 
 
-.grid {
+.grid { 
     padding: 6em 0 0;
 }
 
