@@ -388,4 +388,23 @@
         padding-bottom: 1em;
         padding-left: 0px;
     }
+
+
+    @media screen and (max-width:425px) {
+
+        
+        .heading-contact{
+            font-size: 36px;
+        }
+    }
+    
+    
+
+        
+        .heading-contact{
+            font-size: 72px;
+        }
+    
+
+
     
