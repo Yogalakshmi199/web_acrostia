@@ -10,10 +10,6 @@
     padding-left: 1.8em !important;
 }
 
-
-
-
-
 .myImage{
     position: absolute;
     max-width: 100%;
@@ -66,7 +62,7 @@
     color: #ffcccf;
 }
 
-.serviceheading {
+.heading-contact {
     color: white;
     font-size: 4em;
     font-weight: 300;
@@ -396,7 +392,8 @@
 
         
         .heading-contact{
-            font-size: 36px;
+            font-size: 1.5em;
+            font-weight: 30;
         }
     }
     
