@@ -1,20 +1,19 @@
-.navbar-brand{
+ .navbar-brand{
     align-items: right !important;
 }
 
 .navbar-nav li a{
-    color: white !important;
-    padding-top: 3em !important;
-    padding-right: 1.8em !important;
-    padding-bottom: 0.5em !important;
-    padding-left: 1.8em !important;
+    color: rgb(27, 25, 25) !important;
 }
+
+
 
 .myImage{
     position: absolute;
-    max-width: 100%;
+    width: 100%;
     bottom: 641%;
     right: 5%;
+    z-index: 1;
 }
 
 
@@ -387,6 +386,10 @@
         padding-left: 0px;
     }
 
+    .heading-contacts{
+        font-size: 72px;
+    }
+
 
     @media screen and (max-width:320px) {
 
@@ -396,14 +399,89 @@
             font-weight: 30;
         }
     }
+
+    @media screen and (max-width:375px) {
+
+        
+        .heading-contacts{
+            font-size: 1.6em;
+            font-weight: 30;
+        }
+    }
+
+    @media screen and (max-width:425px) {
+
+        
+        .heading-contacts{
+            font-size: 1.6em;
+            font-weight: 30;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+
+        
+        .heading-contacts{
+            font-size: 1.9em;
+            font-weight: 30;
+        }
+    }
+
+
+    @media screen and (max-width: 768px){
+        .myImage{
+            position: absolute;
+            width: 100%;
+            bottom: 322%;
+            right: 1%;
+        }
+
+    }
+
+    @media screen and (max-width: 1024px){
+        .myImage{
+            position: absolute;
+            width: 100%;
+            bottom: 350%;
+            right: 0%;
+        }
+
+    }
+
+    @media screen and (max-width: 425px){
+        .myImage{
+            position: absolute;
+            width: 100%;
+            bottom: 250%;
+            right: 5%;
+            height: 100%;
+        }
+
+    }
+
+
+
+    @media (max-width: 320px){
+        .meet {
+            font-size: 1em;
+            width: 152px;
+            }
+}
+
+@media (max-width: 375px){
+    .meet {
+        font-size: 1em;
+        width: 200px;
+        }
+}
+
+
+        
+    
     
     
 
         
-        .heading-contacts{
-            font-size: 72px;
-        }
-    
-
+        
 
     
