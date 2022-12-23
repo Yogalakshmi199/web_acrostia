@@ -407,7 +407,7 @@
 
         
         .heading-contacts{
-            font-size: 1.6em;
+            font-size: 1.7em;
             font-weight: 30;
         }
     }
@@ -496,6 +496,28 @@
     background-color: skyblue;
 }
 }
+
+@media (max-width: 320px){
+    .span{
+        font-size: 0.7em !important;
+    }
+}
+
+@media (max-width: 375px){
+    .span{
+        font-size: 0.8em !important;
+    }
+}
+
+@media (max-width:375px){
+    .map{
+    padding-left: 0px
+
+}
+    
+}
+
+
 
         
     
